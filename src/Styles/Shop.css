@@ -1,0 +1,27 @@
+.shoppage .slider {
+    height: calc(100vh - 56px);
+    background-color: #F9BBA2;
+    background-size:cover;
+    background-position-x: 35%;
+    background-repeat: no-repeat;
+    font-size: 45px;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    font-weight: bold;
+}
+.shoppage .bg-cart {
+    background-color: #08817925;
+    border-color: #08817925!important;
+    cursor: pointer;
+}
+.shoppage .bg-cart:active {
+    background-color: #7cbe9f;
+    border-color: #08817925!important;
+}
+.shoppage .carts {
+    color: #088178;
+}
+.shoppage .card img {
+    max-width: 238px;
+    max-height: 305px;
+}

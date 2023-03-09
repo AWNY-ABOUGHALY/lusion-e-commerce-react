@@ -1,0 +1,11 @@
+.page404icon {
+    font-size: 7rem;
+}
+.page404icon .goback {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.555);
+}
+.page404icon .goback:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.699);
+}

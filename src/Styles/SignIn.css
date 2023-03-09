@@ -1,0 +1,16 @@
+.signin {
+    height: calc(100vh - 56px);
+    background-color: var(--second-bg);
+}
+.signin .signininput:focus {
+    box-shadow: none;
+    border-color: #198754bd;
+    transition: 1s;
+}
+.signin .ifunew {
+    font-size: 0.85rem;
+    color: rgb(134, 134, 134);
+}
+.signin .ifunew a {
+    text-decoration: none;
+}

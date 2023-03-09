@@ -1,0 +1,206 @@
+{
+  "products": [
+    {
+      "image": "https://i.ibb.co/C5716ry/shopC1.jpg",
+      "name": "Hood",
+      "price": 100,
+      "items": 20,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/MRs7CxD/shopC2.jpg",
+      "name": "Shirt",
+      "price": 120,
+      "items": 10
+    },
+    {
+      "image": "https://i.ibb.co/dQcFntw/shopC3.jpg",
+      "name": "Shirt",
+      "price": 125,
+      "items": 1,
+      "id": 3
+    },
+    {
+      "image": "https://i.ibb.co/Nm5H3m7/shopC4.jpg",
+      "name": "Shirt",
+      "price": 135,
+      "items": 80,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/gjxG6pk/shopC5.jpg",
+      "name": "Shirt",
+      "price": 100,
+      "items": 30
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/0BXcB1k/shopC6.jpg",
+      "name": "Shirt",
+      "price": 220,
+      "items": 70
+    },
+    {
+      "image": "https://i.ibb.co/rQhxyKq/shopC7.jpg",
+      "name": "Jeans",
+      "price": "310",
+      "items": 45,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/1f3s1Kq/shopC8.jpg",
+      "name": "Jeans",
+      "price": 250,
+      "items": 100
+    },
+    {
+      "image": "https://i.ibb.co/wyVpQym/default-image.png",
+      "name": "Hood",
+      "price": "125",
+      "items": 55,
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "image": "https://cdn.shopify.com/s/files/1/0084/1724/7279/products/image_15_779b34a9-ec2c-49dc-8865-756d33e686bf.png?v=1623178157",
+      "name": "Awny Aboughaly",
+      "age": "33",
+      "gender": "Male",
+      "genderstatus": "Changeable",
+      "email": "awnyaboughaly@yahoo.com",
+      "username": "awnyghali",
+      "password": "12345",
+      "token": 775371751886541,
+      "role": "Admin",
+      "cart": [
+        {
+          "image": "https://i.ibb.co/dQcFntw/shopC3.jpg",
+          "name": "Shirt",
+          "price": 125,
+          "items": 0,
+          "id": 3,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "image": "https://i.ibb.co/MRs7CxD/shopC2.jpg",
+          "name": "Shirt",
+          "price": 120,
+          "items": 9,
+          "count": 1
+        },
+        {
+          "image": "https://i.ibb.co/C5716ry/shopC1.jpg",
+          "name": "Hood",
+          "price": 100,
+          "items": 19,
+          "id": 1,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "image": "https://i.ibb.co/gjxG6pk/shopC5.jpg",
+          "name": "Shirt",
+          "price": 100,
+          "items": 29,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpnJbB5mUPbKmYK-OHN9g0g09ISVDMq3gM8A&usqp=CAU",
+      "name": "Hoda Ramzy",
+      "age": 28,
+      "gender": "Female",
+      "genderstatus": "Changed",
+      "email": "hodaramzy11@yahoo.com",
+      "username": "Hoda",
+      "password": "55555",
+      "token": 451426350287397,
+      "role": "Member",
+      "cart": [
+        {
+          "id": 6,
+          "image": "https://i.ibb.co/0BXcB1k/shopC6.jpg",
+          "name": "Shirt",
+          "price": 220,
+          "items": 65,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "image": "https://i.ibb.co/gjxG6pk/shopC5.jpg",
+          "name": "Shirt",
+          "price": 100,
+          "items": 29,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co/G06DZfR/default-user-image.png",
+      "name": "Ali Hassan",
+      "age": "25",
+      "gender": "Male",
+      "genderstatus": "Changeable",
+      "email": "alihassan2000@gmail.com",
+      "username": "Ali",
+      "password": "123456",
+      "token": 0,
+      "role": "Member",
+      "id": 3,
+      "cart": []
+    },
+    {
+      "image": "https://i.ibb.co/G06DZfR/default-user-image.png",
+      "name": "ahmed",
+      "age": "40",
+      "gender": "Male",
+      "genderstatus": "Changeable",
+      "email": "ahmed888@gmail.com",
+      "username": "ahmed",
+      "password": "333",
+      "token": 0,
+      "role": "Member",
+      "id": 4,
+      "cart": []
+    },
+    {
+      "image": "https://i.ibb.co/G06DZfR/default-user-image.png",
+      "name": "Asmaa hadi",
+      "age": "27",
+      "gender": "Female",
+      "genderstatus": "Changeable",
+      "email": "asmaa_hadi999@gmail.com",
+      "username": "Asmaa",
+      "password": "123456",
+      "token": 171022406582483,
+      "role": "Member",
+      "id": 5,
+      "cart": [
+        {
+          "id": 8,
+          "image": "https://i.ibb.co/1f3s1Kq/shopC8.jpg",
+          "name": "Jeans",
+          "price": 250,
+          "items": 95,
+          "count": 5
+        },
+        {
+          "id": 7,
+          "image": "https://i.ibb.co/rQhxyKq/shopC7.jpg",
+          "name": "Jeans",
+          "price": 300,
+          "items": 39,
+          "count": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+/************** Global Style ******************/
+body {
+    font-family: 'Quicksand', sans-serif;
+  }  
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+:root {
+    --second-bg: #f5f5f5;
+}
+.closeicon {
+    font-size: 24px;
+    padding: 7px 7px 0 0;
+    color: #d1d1d1;
+    transition: 0.8s;
+}
+.closeicon:hover {
+    color: #696969;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.g-dash {
+    font-weight: bold;
+    color: #198754;
+}
+/******* Form Style *******/
+.inpts {
+    padding: 2px 10px;
+}
+.inpts::placeholder {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.459);
+}
+.inpts:focus, .inptbtn:focus {
+    box-shadow: none;
+    border-color: #198754bd;
+    transition: 0.5s;
+}

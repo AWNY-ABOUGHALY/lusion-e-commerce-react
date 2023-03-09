@@ -1,0 +1,56 @@
+.cartitem .card img {
+    max-width: 174px;
+    max-height: 223px;
+}
+.proddetails {
+    border: 2px dashed rgb(211, 211, 211);
+    position: relative;
+}
+.proddetails::before {
+    content: 'Product Details';
+    position: absolute;
+    top: -11px;
+    left: 0;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+.prodcontrol span {
+    min-width: 28px;
+}
+.prodcontrol .controlbtns button {
+    padding: 1px 3px;
+}
+.emptypage {
+    width: 100%;
+    height: calc(100vh - 166px);/*48px(pt), 48px(pb), 56px(Nav)*/
+}
+.emptypage .startsh {
+    color: #059e05b7;
+}
+.emptypage .startsh:hover {
+    color: rgba(0, 107, 0, 0.822);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cartitem .totalprice {
+    background-color: #007400;
+    padding: 5px 12px;
+}
+.totalprice .amount {
+    display: inline-block;
+    min-width: 70px;
+}
+.Continuebtn {
+    color: white;
+    background-color: transparent !important;
+    border-color: white;
+}
+.Continuebtn:hover {
+    color: #008800;
+    background-color: white !important;
+}
+.instock {
+    font-size: 0.9rem;
+    text-align: center;
+}

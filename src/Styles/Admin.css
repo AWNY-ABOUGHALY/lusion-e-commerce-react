@@ -1,0 +1,155 @@
+/********* Admin Navbar *********/
+.adminNavbar {
+    background-color: #3C8DBC;
+}
+/********* Admin Sidebar *********/
+
+@media (min-width: 576px) {
+    .adminSidebar {
+        background-color: rgb(59, 59, 59);
+        color: white;
+        min-height: calc(100vh - 56px);
+    }
+    .adminSidebar .options {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-decoration: none;
+        color:white;
+    }
+}
+@media (max-width: 575px) {
+    .adminSidebar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(59, 59, 59);
+        color: white;
+        height: 3rem;
+    } 
+    .adminSidebar .options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-decoration: none;
+        color:white;
+    }
+}
+@media (max-width: 400px) {
+    .adminSidebar .options {
+        padding: 10px 8px;
+    }
+    .adminSidebar .options span:first-child {
+        font-size: 0.8rem;
+    }
+    .adminSidebar .options span:last-child {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 330px) {
+    .adminSidebar .options {
+        padding: 10px 5px;
+    }
+    .adminSidebar .options span:first-child {
+        font-size: 0rem;
+    }
+    .adminSidebar .options span:last-child {
+        font-size: 0.9rem;
+    }
+}
+.adminSidebar a {
+    text-decoration: none!important;
+}
+.adminSidebar .options:hover {
+    background-color: rgb(22, 22, 22);
+}
+.adminSidebar .optionslink {
+    text-decoration: none;
+    color:white;
+}
+/**** Admin Dashboard & (--Products & Users (AddNew & View)--) ****/
+.adminWorkSpace {
+    height: calc(100vh - 56px);
+}
+.producttr td, th {
+    vertical-align:middle;
+    text-align: center;
+}
+.productimage {
+    padding: 2px 8px!important;
+}
+.productimage img {
+    width: 40px;
+}
+.thwidth {
+    max-width: 5rem;
+}
+.addinptspecial {
+    padding: 2px 10px;
+}
+.addinptspecial::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.459);
+}
+.addinputs:focus {
+    box-shadow: none;
+    border-color: #198754bd;
+    transition: 0.5s;
+}
+.addconfirm, .addfillfields {
+    display: block;
+    text-align: center;
+}
+.removeconfirm, .removefillfields {
+    display: none;
+}
+.imgexample {
+    font-size: 12px;
+    opacity: 0.7;
+}
+.loading {
+    width: 23px;
+    height: 23px;
+    margin: 0px 8px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: loading 1s linear infinite;
+  }
+  @keyframes loading {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+.awny {
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+.userdetails {
+    border: 2px dashed rgb(211, 211, 211);
+    position: relative;
+}
+.userdetails::before {
+    content: 'User Informations';
+    position: absolute;
+    top: -11px;
+    left: 0;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    padding: 1px 5px;
+}
+.userrole {
+    display: inline-block;
+    font-size: 0.83rem;
+    background-color: white;
+    color: #DC3545;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.makeAdmin {
+    width: 7.5rem;
+}

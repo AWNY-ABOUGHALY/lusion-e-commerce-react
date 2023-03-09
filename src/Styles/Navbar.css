@@ -1,0 +1,70 @@
+Nav .links {
+    color: #ffffff8c;
+    text-decoration: none;
+    transition: 0.7s;
+}
+Nav .links:hover {
+    color: #fff;
+    transition: 0.7s;
+}
+.cartbtn {
+    margin: 0 10px;
+    width: 2rem;
+    height: 2rem;
+    padding: 0px;
+    color: #ffffff8c;
+    background-color: transparent;
+    border-color: #ffffff8c;
+}
+.cartbtn:hover {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+}
+.cartbtn:active {
+    background-color: #ffffff!important;
+    border-color: #fff!important;
+    color: #059e05b7!important;
+}
+.cartnav {
+    position: relative;
+}
+.shopcart {
+    position: absolute;
+    color: white!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.3rem;
+    height: 1.3rem;
+    font-size: 13px;
+    border-radius: 50%;
+    bottom: 15px;
+    right: 1px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+.navbar-collapse {
+    flex-grow: 0!important;
+}
+/* .clearst {
+    cursor: pointer;
+} */
+/****** Dropdown *********/
+.dropname {
+    padding-bottom: 0px!important;
+}
+.dropusername {
+    padding-top: 0px!important;
+    font-size: 13px;
+}
+.dropname:hover, .dropusername:hover {
+    background-color: transparent!important;
+}
+.dropitems:hover {
+    background-color: #212529;
+    color: white;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -100%!important;
+}

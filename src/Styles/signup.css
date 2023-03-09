@@ -1,0 +1,101 @@
+.signup {
+    height: calc(100vh - 56px);
+    background-color: var(--second-bg);
+}
+.signup .testword {
+    position: absolute;
+    right: 1.8rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 280px) {
+    .signup .testword {
+        display: none;
+    }
+}
+.signup .testicon {
+    position: absolute;
+    right: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.signup .checking {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #525252;
+    border-color: #000 #000 transparent transparent;
+    animation: checking 0.7s linear infinite;
+  }
+  @keyframes checking {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+/*********** Password Style ************/
+.signup .Week {
+    color: orange;
+}
+.signup .Medium {
+    color: #4cac4cc9;
+}
+.signup .Strong {
+    color: #198754;
+}
+.signup .Very.Strong {
+    color: #005800;
+}
+.signup .Unfulfilled {
+    color: red;
+}
+/************* Hint Style **************/
+.signup .activeHint {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    color: white;
+    right: 102%;
+    bottom: 0;
+    width: fit-content;
+    padding: 6px 8px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+.signup .activeHintarrow {
+    position: absolute;
+    left: -2.7%;
+    bottom: 18%;
+    width: 20px;
+    border-width: 10px;
+    border-color: transparent transparent transparent black;
+    border-style: solid;
+}
+@media (max-width: 991px) {
+    .signup .activeHint {
+        flex-direction: column;
+        left: 0;
+        height: fit-content;
+        top: 95%;
+        padding: 4px 8px;
+        z-index: 1;
+    }
+    .signup .activeHintarrow {
+        position: absolute;
+        top: 40%;
+        left: 0.8rem;
+        width: 10px;
+        height: 20px;
+        border-width: 10px;
+        border-color: transparent transparent black transparent;
+        border-style: solid;
+    }
+}
+@media (max-width: 310px) {
+    .signup .activeHint {
+        white-space:normal;
+        width: 100%;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+}
